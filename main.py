@@ -9,7 +9,7 @@ async def on_ready():
     print('We have logged in as {0.user}'.format(client))
     await client.change_presence(activity = discord.Activity(
                           type = discord.ActivityType.listening, 
-                          name = 'for Sire to summon me'))
+                          name = 'Guillames assault on music'))
 
 @client.event
 async def on_message(message):
