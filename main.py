@@ -8,7 +8,7 @@ client = discord.Client(intents=intents)
 async def on_ready():
     print('We have logged in as {0.user}'.format(client))
     await client.change_presence(activity = discord.Activity(
-                          type = discord.ActivityType.watching, 
+                          type = discord.ActivityType.listening, 
                           name = 'for Sire to summon me'))
 
 @client.event
