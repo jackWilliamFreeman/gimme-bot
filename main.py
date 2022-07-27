@@ -19,5 +19,4 @@ async def on_message(message):
     if '!gimme'.encode('ascii', 'ignore') in message.content.lower().encode('ascii', 'ignore') and message.guild:
         await message.reply('Right Away Sire!', files = [discord.File('man.jpg')])
 
-
 client.run(os.getenv('BOT_TOKEN'))
